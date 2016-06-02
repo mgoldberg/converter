@@ -8,11 +8,17 @@
 	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
 		
 		<div>
+			<header>
+				Length Conversion
+			</header>
 			<form action= "lengthConverter.php"  method="post">
 			<p>
 
 <?php
 	
+	$value = "";
+	$type = "";
+	$convertTo = "";
 
 	$value = check_input($_POST['value'], "Enter a value");
 	$type = check_input($_POST['type'], "Enter a value");

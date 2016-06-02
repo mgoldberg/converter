@@ -9,12 +9,17 @@
 	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
 		
 		<div>
+			<header>
+				Weight Conversion
+			</header>
 			<form action= "weightConverter.php"  method="post">
 			<p>
 
 <?php
 
-	
+	$value = "";
+	$type = "";
+	$convertTo = "";
 
 	$value = check_input($_POST['value'], "Enter a value");
 	$type = check_input($_POST['type'], "Enter a value");
