@@ -33,6 +33,10 @@
 					echo $value*0.39370078740157 . "in";
 				}elseif($convertTo == "ft"){
 					echo $value*0.032808398950131 . "ft";
+				}elseif($convertTo == "mi"){
+					echo $value*0.0000062137119223733 . "mi";
+				}elseif($convertTo == "km"){
+					echo $value*0.00001 . "km";
 				}
 			}elseif($type == "m"){
 				if($convertTo == "cm"){
@@ -43,6 +47,24 @@
 					echo $value*39.370078740157 . "in";
 				}elseif($convertTo == "ft"){
 					echo $value*3.2808398950131 . "ft";
+				}elseif($convertTo == "mi"){
+					echo $value*0.00062137119223733 . "mi";
+				}elseif($convertTo == "km"){
+					echo $value*0.001 . "km";
+				}
+			}elseif($type == "km"){
+				if($convertTo == "cm"){
+					echo $value*100000 . "cm";
+				}elseif($convertTo == "m"){
+					echo $value*1000 . "m";
+				}elseif($convertTo == "in"){
+					echo $value*39370.078740157 . "in";
+				}elseif($convertTo == "ft"){
+					echo $value*3280.8398950131 . "ft";
+				}elseif($convertTo == "mi"){
+					echo $value*0.62137119223733 . "mi";
+				}elseif($convertTo == "km"){
+					echo $value . "km";
 				}
 			}elseif($type == "in"){
 				if($convertTo == "cm"){
@@ -53,6 +75,10 @@
 					echo $value . "in";
 				}elseif($convertTo == "ft"){
 					echo $value*0.083333333333333 . "ft";
+				}elseif($convertTo == "mi"){
+					echo $value*0.000015782828282828 . "mi";
+				}elseif($convertTo == "km"){
+					echo $value*0.0000254 . "km";
 				}
 			}elseif($type == "ft"){
 				if($convertTo == "cm"){
@@ -63,6 +89,24 @@
 					echo $value*12 . "in";
 				}elseif($convertTo == "ft"){
 					echo $value . "ft";
+				}elseif($convertTo == "mi"){
+					echo $value*0.00018939393939394 . "mi";
+				}elseif($convertTo == "km"){
+					echo $value*0.0003048 . "km";
+				}
+			}elseif($type == "mi"){
+				if($convertTo == "cm"){
+					echo $value*160934.4 . "cm";
+				}elseif($convertTo == "m"){
+					echo $value*1609.344 . "m";
+				}elseif($convertTo == "in"){
+					echo $value*63360 . "in";
+				}elseif($convertTo == "ft"){
+					echo $value*5280 . "ft";
+				}elseif($convertTo == "mi"){
+					echo $value . "mi";
+				}elseif($convertTo == "km"){
+					echo $value*1.609344 . "km";
 				}
 			}
 		}else{
@@ -90,16 +134,20 @@
 						<option value="">--Select a unit--</option>
 						<option value="cm">cm</option>
 						<option value="m">m</option>
-						<option value="in">m</option>
-						<option value="ft">m</option>
+						<option value="in">in</option>
+						<option value="ft">ft</option>
+						<option value="mi">mi</option>
+						<option value="km">km</option>
 						</select>
 				<b>Convert to:</b> 
 						<select name="convertTo">
 						<option value="">--Select a unit--</option>
 						<option value="cm">cm</option>	
 						<option value="m">m</option>	
-						<option value="in">m</option>
-						<option value="ft">m</option>	
+						<option value="in">in</option>
+						<option value="ft">ft</option>
+						<option value="mi">mi</option>	
+						<option value="km">km</option>
 						</select>
 
 				<input id="submit" type="submit" value="Convert">
