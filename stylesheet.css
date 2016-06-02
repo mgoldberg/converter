@@ -64,3 +64,16 @@ b{
 	/*background-color: gray;*/
 }
 
+select{
+	font-size: 25px;
+}
+
+input{
+	font-size: 25px;
+}
+
+#submit{
+	font-size: 50px;
+	background-color: #ff9933;
+	border-radius: 15px;
+}

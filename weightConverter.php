@@ -141,7 +141,7 @@
 	}
 
 ?>
-
+<br>
 				<b>Value:</b> <input type="text" name="value" value=""/><br />
 				<b>Unit type:</b> 
 						<select name="type">

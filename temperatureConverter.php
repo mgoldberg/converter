@@ -8,7 +8,7 @@
 	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
 		
 		<div>
-			<form action= "liquidConverter.php"  method="post">
+			<form action= "temperatureConverter.php"  method="post">
 			<p>
 
 <?php
@@ -60,6 +60,7 @@
 	}
 
 ?>
+		<br>
 
 
 				<b>Value:</b> <input type="text" name="value" value=""/><br />
