@@ -1,3 +1,16 @@
+<!DOCTYPE HTML>
+
+	<head>
+		<title>Converter</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+
+	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
+		
+		<div>
+			<form action= "areaConverter.php"  method="post">
+			<p>
+
 <?php
 
 	
@@ -129,19 +142,6 @@
 ?>
 
 
-
-<!DOCTYPE HTML>
-
-	<head>
-		<title>Converter</title>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-	</head>
-
-	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
-		
-		<div>
-			<form action= "areaConverter.php"  method="post">
-			<p>
 				<b>Value:</b> <input type="text" name="value" value=""/><br />
 				<b>Unit type:</b> 
 						<select name="type">

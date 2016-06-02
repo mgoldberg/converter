@@ -1,6 +1,6 @@
 a:link{
 	color: #009900;
-	font-size: 2em;
+	font-size: 35px;
 	/*background-color: gray;*/
 }
 
@@ -16,7 +16,7 @@ a:hover{
 
 header{
 	color: #009900;
-	font-size: 4em;
+	font-size: 55px;
 	background-color: #000066;
 	border-radius: 20px;
 	border: #009900 3px solid;
@@ -30,6 +30,8 @@ p{
 	border: black 3px solid;
 	padding: 8px;
 	text-align: center;
+	color:#009900;
+	font-size: 50px;
 }
 
 img{
@@ -43,12 +45,12 @@ div{
 
 b{
 	color: #009900;
-	font-size: 2em;
+	font-size: 40px;
 }
 
  #backBTN{
  	color: #009900;
-	font-size: 1.5em;
+	font-size: 20px;
 	display:block;
  }
 
@@ -56,3 +58,4 @@ b{
 	color: #ff6600;
 	/*background-color: gray;*/
 }
+

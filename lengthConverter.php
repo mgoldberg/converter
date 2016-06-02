@@ -1,5 +1,17 @@
-<?php
+<!DOCTYPE HTML>
 
+	<head>
+		<title>Converter</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+
+	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
+		
+		<div>
+			<form action= "lengthConverter.php"  method="post">
+			<p>
+
+<?php
 	
 
 	$value = check_input($_POST['value'], "Enter a value");
@@ -8,7 +20,7 @@
 
 
 
-	//checks to see i required forms filled
+	//checks to see if required forms filled
 	function check_input($data, $problem=''){
 
 		$data = trim($data);
@@ -116,20 +128,7 @@
 
 ?>
 
-
-
-<!DOCTYPE HTML>
-
-	<head>
-		<title>Converter</title>
-		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-	</head>
-
-	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
-		
-		<div>
-			<form action= "lengthConverter.php"  method="post">
-			<p>
+				<br>
 				
 					<b>Value:</b> <input type="text" name="value" value=""/><br />
 					<b>Unit type:</b> 
