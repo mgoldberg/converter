@@ -164,6 +164,7 @@
 						</select>
 
 				<input id="submit" type="submit" value="Convert">	
+				<br>
 			<a  id ="backBTN" href = "http://localhost/converter/index.php">Go back</a><br>	
 			</p>
 			</form>
