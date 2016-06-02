@@ -1,0 +1,21 @@
+a:link{
+	color: green;
+	/*background-color: gray;*/
+}
+
+a:visited{
+	color: green;
+	/*background-color: gray;*/
+}
+
+a:hover{
+	color: blue;
+	/*background-color: gray;*/
+}
+
+p{
+	display:inline-block;
+	background-color: blue;
+	border-radius: 15;
+	border: black 2px solid;
+}
