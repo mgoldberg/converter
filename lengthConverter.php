@@ -122,37 +122,42 @@
 
 	<head>
 		<title>Converter</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 	</head>
 
-	<body>
+	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
 		
 		<div>
 			<form action= "lengthConverter.php"  method="post">
-				<b>Value:</b> <input type="text" name="value" value=""/><br />
-				<b>Unit type:</b> 
-						<select name="type">
-						<option value="">--Select a unit--</option>
-						<option value="cm">cm</option>
-						<option value="m">m</option>
-						<option value="in">in</option>
-						<option value="ft">ft</option>
-						<option value="mi">mi</option>
-						<option value="km">km</option>
-						</select>
-				<b>Convert to:</b> 
-						<select name="convertTo">
-						<option value="">--Select a unit--</option>
-						<option value="cm">cm</option>	
-						<option value="m">m</option>	
-						<option value="in">in</option>
-						<option value="ft">ft</option>
-						<option value="mi">mi</option>	
-						<option value="km">km</option>
-						</select>
+			<p>
+				
+					<b>Value:</b> <input type="text" name="value" value=""/><br />
+					<b>Unit type:</b> 
+							<select name="type">
+							<option value="">--Select a unit--</option>
+							<option value="cm">cm</option>
+							<option value="m">m</option>
+							<option value="in">in</option>
+							<option value="ft">ft</option>
+							<option value="mi">mi</option>
+							<option value="km">km</option>
+							</select>
+					<b>Convert to:</b> 
+							<select name="convertTo">
+							<option value="">--Select a unit--</option>
+							<option value="cm">cm</option>	
+							<option value="m">m</option>	
+							<option value="in">in</option>
+							<option value="ft">ft</option>
+							<option value="mi">mi</option>	
+							<option value="km">km</option>
+							</select>
 
-				<input id="submit" type="submit" value="Convert">
+					<input id="submit" type="submit" value="Convert">	
+				
+				<a id ="backBTN" href = "http://localhost/converter/index.php">Go back</a><br>	
+			</p>
 			</form>	
-			<a href = "http://localhost/converter/index.php">Go back</a><br>	
 		</div>
 
 	</body>

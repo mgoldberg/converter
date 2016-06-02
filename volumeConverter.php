@@ -135,12 +135,14 @@
 
 	<head>
 		<title>Converter</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 	</head>
 
-	<body>
+	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
 		
 		<div>
 			<form action= "volumeConverter.php"  method="post">
+			<p>
 				<b>Value:</b> <input type="text" name="value" value=""/><br />
 				<b>Unit type:</b> 
 						<select name="type">
@@ -161,9 +163,10 @@
 						<option value="cm">cubic cm</option>
 						</select>
 
-				<input id="submit" type="submit" value="Convert">
-			</form>	
-			<a href = "http://localhost/converter/index.php">Go back</a><br>	
+				<input id="submit" type="submit" value="Convert">	
+			<a  id ="backBTN" href = "http://localhost/converter/index.php">Go back</a><br>	
+			</p>
+			</form>
 		</div>
 
 	</body>

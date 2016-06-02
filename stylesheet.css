@@ -40,3 +40,19 @@ img{
 div{
 	text-align: center;
 }
+
+b{
+	color: #009900;
+	font-size: 2em;
+}
+
+ #backBTN{
+ 	color: #009900;
+	font-size: 1.5em;
+	display:block;
+ }
+
+ #backBTN:hover{
+	color: #ff6600;
+	/*background-color: gray;*/
+}
