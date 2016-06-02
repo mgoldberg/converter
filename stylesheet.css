@@ -1,10 +1,11 @@
 a:link{
-	color: green;
+	color: #009900;
+	font-size: 2em;
 	/*background-color: gray;*/
 }
 
 a:visited{
-	color: green;
+	color: #009900;
 	/*background-color: gray;*/
 }
 
@@ -13,9 +14,29 @@ a:hover{
 	/*background-color: gray;*/
 }
 
+header{
+	color: #009900;
+	font-size: 4em;
+	background-color: #000066;
+	border-radius: 20px;
+	border: #009900 3px solid;
+	padding: 8px;
+}
+
 p{
 	display:inline-block;
-	background-color: blue;
-	border-radius: 15;
+	background-color: #000066;
+	border-radius: 20px;
 	border: black 2px solid;
+	padding: 8px;
+	text-align: center;
+}
+
+img{
+	border-radius: 5px;
+	border: black 1px solid;
+}
+
+div{
+	text-align: center;
 }
