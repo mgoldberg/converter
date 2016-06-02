@@ -16,21 +16,27 @@
 		
 		<div>
 			<p>
+				<img src="http://localhost/converter/images/imgres.jpg" height = "150px" width = "150px"/>
 				<a href = "http://localhost/converter/lengthConverter.php">Length</a>
 			</p>
 			<p>	
+				<img src="http://localhost/converter/images/imgres-3.jpg" height = "150px" width = "150px"/>
 				<a href = "http://localhost/converter/temperatureConverter.php">temperature</a>
 			</p>
 			<p>	
+				<img src="http://localhost/converter/images/imgres-2.jpg" height = "150px" width = "150px"/>
 				<a href = "http://localhost/converter/weightConverter.php">Weight</a>
 			</p>
 			<p>	
+				<img src="http://localhost/converter/images/imgres.png" height = "150px" width = "150px"/>
 				<a href = "http://localhost/converter/liquidConverter.php">Liquid</a>
 			</p>
 			<p>	
+				<img src="http://localhost/converter/images/imgres-1.png" height = "150px" width = "150px"/>
 				<a href = "http://localhost/converter/areaConverter.php">Area</a>
 			</p>
 			<p>	
+				<img src="http://localhost/converter/images/imgres-1.jpg" height = "150px" width = "150px"/>
 				<a href = "http://localhost/converter/volumeConverter.php">Volume</a>
 			</p>
 		</div>
