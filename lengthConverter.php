@@ -24,7 +24,19 @@
 
 	if(!empty($value)&&!empty($type)&&!empty($convertTo)){
 		if(is_numeric($value)){
-			echo "Thank you for filling out the form!";
+			if($type == "cm"){
+				if($convertTo == "cm"){
+					echo $value . "cm";
+				}elseif($convertTo == "m"){
+					echo $value/100 . "m";
+				}
+			}elseif($type == "m"){
+				if($convertTo == "cm"){
+					echo $value*100 . "cm";
+				}elseif($convertTo == "m"){
+					echo $value . "m";
+				}
+			}
 		}	
 	}
 
@@ -47,13 +59,13 @@
 						<select name="type">
 						<option value="">--Select a unit--</option>
 						<option value="cm">cm</option>
-						<option value="ft">ft</option>
+						<option value="m">m</option>
 						</select>
 				<b>Convert to:</b> 
 						<select name="convertTo">
 						<option value="">--Select a unit--</option>
 						<option value="cm">cm</option>	
-						<option value="ft">ft</option>		
+						<option value="m">m</option>		
 						</select>
 
 				<input id="submit" type="submit" value="Convert">
