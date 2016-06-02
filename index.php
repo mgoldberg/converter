@@ -12,7 +12,7 @@
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 	</head>
 
-	<body>
+	<body background="http://localhost/converter/images/5s-numbers-game-17-638.jpg">
 		<div>
 			<header>
 				Conversion Calculator
