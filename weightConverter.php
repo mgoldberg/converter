@@ -24,23 +24,103 @@
 
 	if(!empty($value)&&!empty($type)&&!empty($convertTo)){
 		if(is_numeric($value)){
-			if($type == "C"){
-				if($convertTo == "C"){
-					echo $value . "C";
-				}elseif($convertTo == "F"){
-					echo (5/9 *($value-32))  . "F";
-				}elseif($convertTo == "K"){
-					echo $value+273 . "K";
-				}
-			}elseif($type == "F"){
-				if($convertTo == "C"){
-					echo (9/5*$value) +32 . "C";
-				}elseif($convertTo == "F"){
-					echo $value  . "F";
-				}elseif($convertTo == "K"){
-					echo (9/5*($value+273)) +32 . "K";
-				}
-			}
+			switch ($type) {
+				case "lb":
+					switch ($convertTo) {
+						case 'lb':
+							echo $value . "lb";
+							break;
+						case 'oz':
+							echo $value*16 . "oz";
+							break;
+						case 'ton':
+							echo $value*0.00050 . "tons";
+							break;
+						case 'g':
+							echo $value*453.59232  . "g";
+							break;	
+						case 'kg':
+							echo $value*0.45359 . "kg";
+							break;
+					}
+					break;	
+				case "oz":
+					switch ($convertTo) {
+						case 'lb':
+							echo $value*0.00220 . "lb";
+							break;
+						case 'oz':
+							echo $value . "oz";
+							break;
+						case 'ton':
+							echo $value*0.00050 . "tons";
+							break;
+						case 'g':
+							echo $value*28.34952 . "g";
+							break;	
+						case 'kg':
+							echo $value*0.02835 . "kg";
+							break;
+					}
+					break;			
+				case "ton":
+					switch ($convertTo) {
+						case 'lb':
+							echo $value*2000 . "lb";
+							break;
+						case 'oz':
+							echo $value*32000 . "oz";
+							break;
+						case 'ton':
+							echo $value . "tons";
+							break;
+						case 'g':
+							echo $value*907184.64 . "g";
+							break;	
+						case 'kg':
+							echo $value*907.18464 . "kg";
+							break;			
+					}
+					break;
+				case "g":
+					switch ($convertTo) {
+						case 'lb':
+							echo $value*0.00220 . "lb";
+							break;
+						case 'oz':
+							echo $value*0.03527 . "oz";
+							break;
+						case 'ton':
+							echo $value . "tons";
+							break;
+						case 'g':
+							echo $value/907184.64 . "g";
+							break;	
+						case 'kg':
+							echo $value*0.001 . "kg";
+							break;			
+					}	
+					break;
+				case "kg":
+					switch ($convertTo) {
+						case 'lb':
+							echo $value*2.20462 . "lb";
+							break;
+						case 'oz':
+							echo $value*35.27397 . "oz";
+							break;
+						case 'ton':
+							echo $value*0.0011 . "tons";
+							break;
+						case 'g':
+							echo $value*1000 . "g";
+							break;	
+						case 'kg':
+							echo $value . "kg";
+							break;			
+					}
+					break;	
+			}	
 		}else{
 			echo "Enter a  valid number";
 		}	
@@ -64,20 +144,25 @@
 				<b>Unit type:</b> 
 						<select name="type">
 						<option value="">--Select a unit--</option>
-						<option value="C">C</option>
-						<option value="F">F</option>
-						<option value="K">K</option>
+						<option value="lb">lb</option>
+						<option value="oz">oz</option>
+						<option value="g">g</option>
+						<option value="kg">kg</option>
+						<option value="ton">ton</option>
 						</select>
 				<b>Convert to:</b> 
 						<select name="convertTo">
 						<option value="">--Select a unit--</option>
-						<option value="C">C</option>	
-						<option value="F">F</option>	
-						<option value="K">K</option>
+						<option value="lb">lb</option>
+						<option value="oz">oz</option>
+						<option value="g">g</option>
+						<option value="kg">kg</option>
+						<option value="ton">ton</option>
 						</select>
 
 				<input id="submit" type="submit" value="Convert">
-			</form>		
+			</form>	
+			<a href = "http://localhost/converter/index.php">Go back</a><br>	
 		</div>
 
 	</body>
