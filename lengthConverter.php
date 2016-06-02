@@ -151,7 +151,8 @@
 						</select>
 
 				<input id="submit" type="submit" value="Convert">
-			</form>		
+			</form>	
+			<a href = "http://localhost/converter/index.php">Go back</a><br>	
 		</div>
 
 	</body>
