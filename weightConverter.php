@@ -167,8 +167,9 @@
 						<option value="kg">kg</option>
 						<option value="ton">ton</option>
 						</select>
-
+				<br>		
 				<input id="submit" type="submit" value="Convert">
+				<br>
 				<br>
 			<a id ="backBTN"  href = "http://localhost/converter/index.php">Go back</a><br>	
 			</p>

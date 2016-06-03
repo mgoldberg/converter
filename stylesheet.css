@@ -31,7 +31,8 @@ p{
 	padding: 8px;
 	text-align: center;
 	color:#009900;
-	font-size: 50px;
+	font-size: 49px;
+	margin:10px;
 }
 
 img{
@@ -51,7 +52,7 @@ b{
  #backBTN{
  	color: #009900;
 	font-size: 30px;
-	display:block;
+	/*display:block;*/
 	background-color: #ff9933;
 	border-radius: 20px;
 	border: black 3px solid;
@@ -73,7 +74,9 @@ input{
 }
 
 #submit{
+	text-align: center;
 	font-size: 50px;
 	background-color: #ff9933;
 	border-radius: 15px;
+	display:inline-block;
 }
