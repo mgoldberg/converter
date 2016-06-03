@@ -11,6 +11,7 @@
 			<header>
 				Temperature Conversion
 			</header>
+			<img src="http://localhost/converter/images/imgres-3.jpg" height = "200px" width = "200px"/><br>
 			<form action= "temperatureConverter.php"  method="post">
 			<p>
 

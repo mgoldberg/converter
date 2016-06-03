@@ -11,6 +11,7 @@
 			<header>
 				Length Conversion
 			</header>
+			<img src="http://localhost/converter/images/imgres.jpg" height = "200px" width = "200px"/><br>
 			<form action= "lengthConverter.php"  method="post">
 			<p>
 

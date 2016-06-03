@@ -11,6 +11,7 @@
 			<header>
 				Area Conversion
 			</header>
+			<img src="http://localhost/converter/images/imgres-1.png" height = "200px" width = "200px"/><br>
 			<form action= "areaConverter.php"  method="post">
 			<p>
 

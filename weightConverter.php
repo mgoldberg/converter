@@ -12,6 +12,7 @@
 			<header>
 				Weight Conversion
 			</header>
+			<img src="http://localhost/converter/images/imgres-2.jpg" height = "200px" width = "200px"/><br>
 			<form action= "weightConverter.php"  method="post">
 			<p>
 

@@ -11,6 +11,7 @@
 			<header>
 				Liquid Conversion
 			</header>
+			<img src="http://localhost/converter/images/imgres.png" height = "200px" width = "200px"/><br>
 			<form action= "liquidConverter.php"  method="post">
 			<p>
 

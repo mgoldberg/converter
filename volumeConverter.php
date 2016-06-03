@@ -11,6 +11,7 @@
 			<header>
 				Volume Conversion
 			</header>
+			<img src="http://localhost/converter/images/imgres-1.jpg" height = "200px" width = "200px"/><br>
 			<form action= "volumeConverter.php"  method="post">
 			<p>
 
